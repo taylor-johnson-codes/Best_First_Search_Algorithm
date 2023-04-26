@@ -7,7 +7,7 @@ namespace Best_First_Search
         static void Main(string[] args)
         {
             // Input for algorithm: a binary search tree with node values
-            // NEED TO INPUT THIS (will you one with nodes labeled A-N)
+            // NEED TO INPUT THIS
 
             Console.WriteLine($"-------------------- Initializations --------------------\n");
 
@@ -39,7 +39,7 @@ namespace Best_First_Search
                 }
 
                 // add the children of the node we're visiting to unvisitedNodes
-                //unvisitedNodes.Enqueue(INSERT CHILDREN FROM TREE);  // NEED HELP
+                unvisitedNodes.Enqueue(INSERT CHILDREN FROM TREE);  // NEED HELP
 
                 // move the node we're currently visiting to visitedNodes
                 visitedNodes.Enqueue(unvisitedNodes.First());
